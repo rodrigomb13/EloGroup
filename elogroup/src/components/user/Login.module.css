@@ -1,0 +1,38 @@
+.form_control {
+    flex-direction: column;
+    margin: 40px 0px 20px 500px;
+    padding: 10px 800px 0 0px;
+    border-radius: 10px;
+}
+
+.form_control label {
+    margin-bottom: 0.6em;
+    font-weight: bold;
+}
+  
+.form_control input {
+    padding:0.7em 7.7em 0.7em 0.7em;
+    margin-right: 7.5em;
+    border-radius: 0;
+    border: none;
+}
+
+.form_control input::placeholder {
+    color: #7b7b7b;
+}
+
+.img{
+    margin: 50px 0 0 500px
+}
+
+.btn_login{
+    margin-left: 27.8em;
+    font-size: 18px;
+    padding: 10px 124px 10px 96px;
+    font-weight: bold;
+}
+
+.alerta{
+    font-weight: bold;
+    margin-left: 33em;
+  }

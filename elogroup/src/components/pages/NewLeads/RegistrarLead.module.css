@@ -1,0 +1,77 @@
+.main {
+    color: black;
+    position: absolute;
+    width: 800px;
+    border: solid 2px black;
+    padding: 15px;
+    margin-top: 50px;
+    margin-left: 300px;
+    padding-bottom: 30px;
+}
+
+.logo {
+    width: 19em;
+    float: left;
+    margin-left: 20px;
+}
+    
+.cabecalho {
+    height: 120px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.coluna {
+    float: left;
+    width: 50%;
+}
+    
+.title {
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.form {
+    margin-top: 20px;
+    width: 100%;
+}
+    
+.paragraph {
+    display: block;
+}    
+
+.label {
+    display: block;
+    text-align: left;
+    text-indent: 30px;
+}
+    
+.input {
+    display: block;
+    padding: 0.7em 7.7em 0.7em 0.7em;
+    font-size: 14px;
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 0;
+    border: none;
+}
+    
+.btn{
+    display: inline;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #2196F3;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+    
+.btn:hover{
+    background-color: black;
+    color: white;
+}

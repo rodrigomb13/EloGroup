@@ -1,0 +1,27 @@
+.table {
+    border: solid 2px black;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.row{
+    height: 10px;
+}
+
+.row:nth-child(even){
+    background-color: #ddd;
+}
+
+
+.title {
+    border: solid 2px black;
+    background-color: rgb(191, 189, 189);
+    color: white;
+    position: sticky;
+    top: 0;
+}
+    
+.tableItem {
+    border: solid 2px black;
+}
