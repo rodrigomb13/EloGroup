@@ -20,7 +20,12 @@ export default class LeadTable extends Component {
 
     
     atualiza(lista, index){
+        
         if(lista[index].status === 'Cliente em Potencial'){
+            // so acontecia com o primeiro Lead que era cadastrado, era preciso dar F5 para mostrar que ele passou de 
+            //cliente em potencial para dados confirmados, foi a unica maneira que encontrei para que isso não acontecesse
+            //porem cada vez que é adicionado um novo lead, a pagina home da um refresh, não é a melhor solução mas foi a que eu encontrei
+            window.location.reload(false); 
             lista[index].status = 'Dados Confirmados';
             localStorage.setItem('listaLeads', JSON.stringify(lista));
             this.setState(this.state.List, ()=>{JSON.parse(localStorage.getItem('listaLeads'))})
